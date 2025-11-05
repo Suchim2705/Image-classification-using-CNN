@@ -28,20 +28,17 @@ The dataset includes separate folders for **training**, **validation**, and **te
 1. **Data Preprocessing:**  
    - Resized images to a consistent shape  
    - Normalized pixel values  
-   - Applied image augmentation (rotation, flips, zooms) to increase model generalization
 
 2. **Modeling:**  
    - Built Convolutional Neural Networks (CNNs) for image classification  
-   - Used transfer learning with pre-trained models such as VGG16 or ResNet for improved performance
 
 3. **Evaluation:**  
    - Monitored accuracy and loss on validation data  
-   - Generated confusion matrix and classification reports to analyze model performance
 
 ---
 
 ## Results
-- Achieved high classification accuracy on validation data.  
+- Achieved good classification accuracy on validation data.  
 - The model successfully distinguishes between the 6 image categories.  
 - Transfer learning significantly improved accuracy and reduced training time.
 
